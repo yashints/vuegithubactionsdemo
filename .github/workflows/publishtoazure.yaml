@@ -22,7 +22,6 @@ jobs:
         # Install dependencies and build the app
         yarn
         yarn build
-      working-directory: vuegithubactionsdemo/vuegithubactionsdemo
     - name: Deploy to Azure
       uses: azure/webapps-deploy@v2
       with:
