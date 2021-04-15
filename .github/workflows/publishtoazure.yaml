@@ -4,7 +4,7 @@ on: [push]
 
 env:
   AZURE_WEBAPP_NAME: az204gademo
-  AZURE_WEBAPP_PACKAGE_PATH: '/dist'
+  AZURE_WEBAPP_PACKAGE_PATH: './dist'
   NODE_VERSION: '10.x'
 
 jobs:
