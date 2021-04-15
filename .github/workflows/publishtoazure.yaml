@@ -22,7 +22,7 @@ jobs:
         # Install dependencies and build the app
         yarn
         yarn build
-      working-directory: .
+      working-directory: /vuegithubactionsdemo
     - name: Deploy to Azure
       uses: azure/webapps-deploy@v2
       with:
